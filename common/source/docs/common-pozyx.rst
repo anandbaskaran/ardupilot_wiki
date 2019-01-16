@@ -47,11 +47,12 @@ The Arduino IDE should be used to load `IndoorLoiter sketch <https://github.com/
 
 At this point you may wish to test the tag's ability to communicate with the tags by:
 
+- Mount the Pozyx tag on the top of the Arduino Uno and then mount on the vehicle.
 - powering on all the anchors.
 - connect the UNO's Type B USB to your PC.
 - connect with the Arduino IDE's serial monitor (set to baud 115200) and check no "Beacon Configuration failed" messages appear.  If they do, check that the IDs have been set correctly in the IndoorLoiter2.ino sketch (above).
 
-Mount the Pozyx tag on the top of the Arduino Uno and then mount on the vehicle.
+
 
 Configuration through the Ground Station 
 ========================================
